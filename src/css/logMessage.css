@@ -1,0 +1,33 @@
+.log-message a
+{
+    opacity: 0 !important;
+    transition: opacity 0.3s;
+}
+
+.log-message:hover a
+{
+    opacity: 0.2 !important;
+}
+
+.log-message a:hover
+{
+    opacity: 1 !important;
+}
+
+.log-message-close
+{
+    opacity: 1 !important;
+    transition: opacity 0.3s;
+}
+
+a.log-message-description-link
+{
+	text-decoration: underline;
+}
+
+a.log-message-description-text
+{
+	text-decoration: none;
+	cursor: default;
+	width: 300px;
+}
